@@ -12,7 +12,7 @@ import java.util.UUID;
 public class ApplicationIdentifierFilter implements Filter {
 
 
-    String uuid = UUID.randomUUID().toString();
+    private final String uuid = UUID.randomUUID().toString();
     //String uuidAsString = uuid.toString();
 
     //UUID sameUuid = UUID.fromString(uuidAsString);
